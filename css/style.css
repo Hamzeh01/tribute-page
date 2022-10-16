@@ -1,0 +1,61 @@
+:root {
+  --main-background-color: #090909;
+  --main-text-color: #fff;
+  --border-box-color: #af1313;
+  --root-font-size: 10px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
+  font-family: sue ellen francisco;
+  font-size: var(--root-font-size);
+}
+
+img {
+  max-width: 80%;
+}
+
+.container {
+  border-left: 2.4rem solid var(--border-box-color);
+  border-right: 2.4rem solid var(--border-box-color);
+  border-bottom: 4.8rem solid var(--border-box-color);
+  border-radius: 20px;
+}
+
+.header h1 {
+  font-family: Cabin sketch;
+  font-size: 4.2rem;
+}
+
+.header h2 {
+  font-size: 3.6rem;
+}
+
+.flex__container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  margin: 5.4rem;
+  padding: 1rem;
+}
+
+.item {
+  margin: 1.2rem 0;
+  padding: 1rem;
+}
+
+section:nth-child(odd) {
+  background-color: var(--border-box-color);
+}
+
+.footer {
+  background-image: url(../img/itachi-eyes-footer.png);
+  background-position: center;
+  background-size: cover;
+  line-height: 5;
+}
+
+.footer, .item, .header figcaption {
+  font-size: 2.8rem;
+}
